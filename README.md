@@ -1,6 +1,22 @@
 ## Decision Record
 
 ---
+##### Time: 2022.10.03 【011】 Logs database design change
+> **Decision members:** All group members
+>
+> **Decision-making situations:** All agreed.
+>
+> **Decision topic:** Change the logs database from multi tables according to different types of logs to aggregating in a table
+>
+> **Decision material:** Before,we design many logs to store different types of logs and so that show one type of logs of one client each time.While the client and
+> nutritionist request seeing all the logs of one client in a page,so we change the logs' database design.
+>
+> **Decision results:** We changed logs database design.
+>
+> **Decision Risks:** For there are some many data for all logs of one data, it can be quite slow for the page to load the data.
+>
+> **Decision process and decision analysis:** After this,we meet the client's exception, and it may be clear for the nutritionist to review his client's logs at one time.
+
 ##### Time: 2022.9.16【010】Data-side framework determination
 
 > **Decision members:** All group members
